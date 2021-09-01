@@ -4,7 +4,7 @@ Python scripts computing steady states, and their stability, for different param
 
 ## File contents and description of analyses
 
---- Calculating stable and unstable steady states ---
+--- Calculating stable and unstable steady states ---<br/>
 data-basin-transitions.py
 	Python code calculating the minimum work needed to transition between the two extreme attractor basins; in monostable landscapes no metric is calculated. Script uses data from data-hms-sigmoid.py (with n=4) to input the stable steady states.
 
@@ -27,7 +27,7 @@ data-hms-linear.py
 	Similar to data-hms-sigmoid.py, except only lambda is now modelled as a linear function and n is no longer varied. Results are exported to a csv file.
 
 
---- Plotting figures ---
+--- Plotting figures ---<br/>
 plot_hm_basin_transitions.m
 	Matlab script plots the output of 'data-basin-transitions.py'. All figures are saved in Scalable Vector Graphics format.
 
@@ -64,7 +64,7 @@ plot_lambda_functions.m
 All figures were completed to their final form in LaTex (using TikZ) and Inkscape.
 
 
---- Stability Checks ---
+--- Stability Checks ---<br/>
 steady_states_calculator.mw
 	Maple script calculates the roots of the system of non-linear ODEs for a fixed parameter set for A* between 0-1 in 0.1 steps.
 
@@ -72,5 +72,5 @@ steady_state_stability_check.m
 	Matlab script checks a steady state (entered manually) from 'steady_states_calculator.mw' or calculated in the above python files using the Jacobian.
 
 
---- Contact --- 
+--- Contact ---<br/>
 Email ryankerr8@gmail.com with any questions.
